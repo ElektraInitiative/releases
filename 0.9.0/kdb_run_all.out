@@ -1,0 +1,729 @@
+
+RUN ALL TESTS
+
+Check if script tests the correct version
+
+Running test_args
+Running test_array
+Running test_backend
+Running test_context
+Running test_fork
+Running test_getenv
+Running test_globbing
+Running test_internal
+Running test_key
+Running test_keyname
+Running test_ks
+Running test_ks_opmphm
+Running test_meta
+Running test_mount
+Running test_mountsplit
+Running test_namespace
+Running test_operation
+Running test_opmphm
+Running test_opmphm_predictor
+Running test_opts
+
+ OPTS   TESTS
+==================
+
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:234: error in test_flag: short flag (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:247: error in test_flag: long flag (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:271: error in test_flag_value: short flag with value (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:284: error in test_flag_value: long flag with value (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:307: error in test_optional: short flag (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:343: error in test_optional_value: short flag with value (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:498: error in test_illegal_spec: flagvalue should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:513: error in test_illegal_spec: duplicate short option should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:529: error in test_illegal_spec: duplicate long option should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:545: error in test_illegal_spec: non-array remaining args should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:562: error in test_illegal_spec: '-' option should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:579: error in test_illegal_spec: 'h' option should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:596: error in test_illegal_spec: 'help' option should be illegal
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:613: error in test_illegal_use: repeat should be illegal (short)
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:618: error in test_illegal_use: repeat should be illegal (long)
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:631: error in test_illegal_use: missing argument (short) failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:636: error in test_illegal_use: missing argument (long) failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:653: error in test_illegal_use: argument should not be allowed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:677: error in test_illegal_use: multiple repeated short options should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:685: error in test_illegal_use: multiple repeated long options should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:693: error in test_illegal_use: multiple repeated env-vars should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:722: error in test_help: short help with value (with arg, combined) should have failed
+/home/markus/Projekte/Elektra/libelektra/tests/ctest/test_opts.c:727: error in test_help: long help with value (with arg, combined) should have failed
+
+test_opts Results: 132 Tests done — 23 errors.
+error: test_opts
+
+Running test_order
+Running test_plugin
+Running test_proposal
+Running test_size
+Running test_spec
+Running test_split
+Running test_splitget
+
+
+error: test_splitget
+
+Running test_splitset
+
+
+error: test_splitset
+
+Running test_storage
+Running test_trie
+Running test_utility
+Running testabi_key
+Running testabi_ks
+Running testabi_meta
+Running testabi_rel
+Running testcpp_contextual_basic
+Running testcpp_contextual_nocontext
+Running testcpp_contextual_policy
+Running testcpp_contextual_thread
+Running testcpp_contextual_update
+Running testcpp_iter
+Running testcpp_iter_name
+Running testcpp_kdb
+Running testcpp_key
+Running testcpp_keyio
+Running testcpp_ks
+Running testcpp_ksget
+Running testcpp_meta
+Running testmod_augeas
+Running testmod_base64
+Running testmod_blockresolver
+
+BLOCKRESOLVER     TESTS
+==================
+
+Compare <key = only the inside has changed
+>, with <key=only the inside has changed
+>
+in file /usr/share/libelektra-test/test-data/blockresolver/compare.block, line 5.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/blockresolver/testmod_blockresolver.c:72: error in test_BlockresolverWrite: files do not match as expected
+
+testmod_blockresolver Results: 15 Tests done — 2 errors.
+error: testmod_blockresolver
+
+Running testmod_boolean
+Running testmod_cachefilter
+Running testmod_camel
+Running testmod_ccode
+Running testmod_conditionals
+Running testmod_cpptemplate
+Running testmod_crypto_botan
+Running testmod_crypto_gcrypt
+Running testmod_crypto_openssl
+Running testmod_csvstorage
+Running testmod_date
+Running testmod_dbus
+Running testmod_directoryvalue
+Running testmod_dump
+Running testmod_enum
+Running testmod_fcrypt
+Running testmod_file
+Running testmod_filecheck
+Running testmod_fstab
+Running testmod_glob
+Running testmod_gpgme
+Running testmod_hexcode
+Running testmod_hexnumber
+Running testmod_hosts
+Running testmod_iconv
+Running testmod_ini
+
+INI         TESTS
+==================
+
+Compare <nosectionkey = nosectionvalue
+>, with <nosectionkey=nosectionvalue
+>
+in file /usr/share/libelektra-test/test-data/ini/plainini, line 1.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:77: error in test_plainIniWrite: files do not match as expected
+Compare <nosectionkey = nosectionvalue
+>, with <nosectionkey=nosectionvalue
+>
+in file /usr/share/libelektra-test/test-data/ini/emptyval, line 1.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:105: error in test_plainIniEmptyWrite: files do not match as expected
+Compare <nosectionkey = nosectionvalue
+>, with <nosectionkey=nosectionvalue
+>
+in file /usr/share/libelektra-test/test-data/ini/commentini, line 3.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:188: error in test_commentIniWrite: files do not match as expected
+Compare <key1 = value1
+>, with <key1=value1
+>
+in file /usr/share/libelektra-test/test-data/ini/multilineini, line 2.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:247: error in test_multilineIniWrite: files do not match as expected
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:271: error in test_multilineIniInvalidConfigWrite: The plugin threw the wrong error
+Compare <akey/looking/like/sections = value
+>, with <akey/looking/like/sections=value
+>
+in file /usr/share/libelektra-test/test-data/ini/sectionini, line 1.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:343: error in test_sectionWrite: files do not match as expected
+Compare <mykey = new_value
+>, with <mykey=new_value
+>
+in file /usr/share/libelektra-test/test-data/ini/emptySectionBugTest, line 2.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:364: error in test_emptySectionBug: files do not match as expected
+Compare <key1 = val1
+>, with <key1=val1
+>
+in file /usr/share/libelektra-test/test-data/ini/sectionmerge.output, line 2.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:382: error in test_sectionMerge: files do not match as expected
+Compare <globalkey1 = globalval1
+>, with <globalkey1=globalval1
+>
+in file /usr/share/libelektra-test/test-data/ini/emptyLines, line 3.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:417: error in test_preserveEmptyLines: files do not match as expected
+Compare <testkey0 = testval0
+>, with <testkey0=testval0
+>
+in file /usr/share/libelektra-test/test-data/ini/insertTest.output.ini, line 2.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:440: error in test_insertOrder: files do not match as expected
+Compare <zkey1 = 1
+>, with <zkey1=1
+>
+in file /usr/share/libelektra-test/test-data/ini/complexOut.ini, line 2.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:464: error in test_complexInsert: files do not match as expected
+Compare <value = val
+>, with <value=val
+>
+in file /usr/share/libelektra-test/test-data/ini/arrayInsertOut.ini, line 1.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:488: error in test_arrayInsert: files do not match as expected
+Compare <key = [1, 2, 3, 4, 5, 6]
+>, with <key=[1, 2, 3, 4, 5, 6]
+>
+in file /usr/share/libelektra-test/test-data/ini/bracketQuoteOut.ini, line 1.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:574: error in test_dontquotebracketvalues: files do not match as expected
+Compare <nosectionkey = nosectionvalue
+>, with <nosectionkey=nosectionvalue
+>
+in file /usr/share/libelektra-test/test-data/ini/commentini, line 3.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:554: error in test_commentDefaultChar: files do not match as expected
+Compare <key = value
+>, with <key=value
+>
+in file /usr/share/libelektra-test/test-data/ini/writeCommentMeta.ini, line 2.
+/home/markus/Projekte/Elektra/libelektra/tests/cframework/tests.c:153: error in compare_line_files_fun: comparing lines failed
+/home/markus/Projekte/Elektra/libelektra/src/plugins/ini/testmod_ini.c:526: error in test_writeMeta: files do not match as expected
+
+test_ini Results: 224 Tests done — 29 errors.
+error: testmod_ini
+
+Running testmod_internalnotification
+Running testmod_ipaddr
+Running testmod_iterate
+Running testmod_keytometa
+Running testmod_line
+Running testmod_lineendings
+Running testmod_list
+Running testmod_lua
+
+LUA         TESTS
+==================
+
+Testing simple variable passing...
+There are 1 warnings
+buffer is: warnings/#00
+number: C01430
+description: Plugin Misbehavior
+ingroup: (null)
+module: kdb
+file: /home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/libs/elektra/plugin.c
+line: 302
+reason: Open of plugin returned unsuccessfully: lua. Reason contains plugin, see other warnings for details
+reason: 
+reason: 
+/home/markus/Projekte/Elektra/libelektra/src/plugins/lua/testmod_lua.c:24: error in test_variable_passing: warnings in kdbOpen for plugin lua
+number: C01300
+description: : Installation
+ingroup: : (null)
+module: : lua
+at: /home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/lua/lua.cpp:172
+reason: : module 'kdb' not found:
+	no field package.preload['kdb']
+	no file '/usr/local/share/lua/5.3/kdb.lua'
+	no file '/usr/local/share/lua/5.3/kdb/init.lua'
+	no file '/usr/local/lib/lua/5.3/kdb.lua'
+	no file '/usr/local/lib/lua/5.3/kdb/init.lua'
+	no file '/usr/share/lua/5.3/kdb.lua'
+	no file '/usr/share/lua/5.3/kdb/init.lua'
+	no file './kdb.lua'
+	no file './kdb/init.lua'
+	no file '/usr/local/lib/lua/5.3/kdb.so'
+	no file '/usr/lib/x86_64-linux-gnu/lua/5.3/kdb.so'
+	no file '/usr/lib/lua/5.3/kdb.so'
+	no file '/usr/local/lib/lua/5.3/loadall.so'
+	no file './kdb.so'
+mountpoint: : 
+configfile: : 
+/home/markus/Projekte/Elektra/libelektra/src/plugins/lua/testmod_lua.c:24: error in test_variable_passing: error in kdbOpen for plugin lua
+/home/markus/Projekte/Elektra/libelektra/src/plugins/lua/testmod_lua.c:24: fatal in test_variable_passing: could not open lua plugin
+error: testmod_lua
+
+Running testmod_mathcheck
+Running testmod_mini
+Running testmod_mmapstorage
+Running testmod_mmapstorage_crc
+Running testmod_mozprefs
+Running testmod_network
+
+NETWORK   TESTS
+===============
+
+/home/markus/Projekte/Elektra/libelektra/src/plugins/network/../ipaddr/test_ipaddr.h:45: error in testIP: validation of IP address “1.2.3.” returned 1 instead of -1
+
+testmod_network Results: 2092 Tests done — 1 error.
+error: testmod_network
+
+Running testmod_ni
+Running testmod_passwd
+Running testmod_process
+Running testmod_python
+Running testmod_python2
+Running testmod_range
+Running testmod_reference
+
+REFERENCE     TESTS
+==================
+
+test basics
+test single positive
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:120: error in test_single_positive: ** full_negative: got wrong error
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:128: error in test_single_positive: ** relative1_negative: got wrong error
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:136: error in test_single_positive: ** relative2_negative: got wrong error
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:144: error in test_single_positive: ** relative3_negative: got wrong error
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:153: error in test_single_positive: ** array_negative: got wrong error
+test single positive
+test recursive positive
+test recursive negative
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:245: error in test_recursive_negative: ** linked_list_negative: got wrong error
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:259: error in test_recursive_negative: ** linked_list_negative2: got wrong error
+test restriction positive
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:288: error in test_restriction: ** negative: got wrong error
+/home/markus/Projekte/Elektra/libelektra/src/plugins/reference/testmod_reference.c:296: error in test_restriction: ** empty_negative: got wrong error
+
+testmod_reference Results: 53 Tests done — 9 errors.
+error: testmod_reference
+
+Running testmod_rename
+Running testmod_resolver
+Running testmod_simpleini
+Running testmod_template
+Running testmod_type
+
+Running main() from gtest_main.cc
+[==========] Running 12 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 12 tests from type
+[ RUN      ] type.version
+[       OK ] type.version (0 ms)
+[ RUN      ] type.validate
+/home/markus/Projekte/Elektra/libelektra/src/plugins/type/testmod_type.cpp:84: Failure
+Value of: conversation.f (k, parentKey)
+  Actual: true
+Expected: false
+/home/markus/Projekte/Elektra/libelektra/src/plugins/type/testmod_type.cpp:85: Failure
+Value of: ckdb::keyGetMeta (parentKey, "error/number")
+  Actual: false
+Expected: true
+[  FAILED  ] type.validate (0 ms)
+[ RUN      ] type.short
+[       OK ] type.short (1 ms)
+[ RUN      ] type.unsignedShort
+[       OK ] type.unsignedShort (0 ms)
+[ RUN      ] type.float
+[       OK ] type.float (0 ms)
+[ RUN      ] type.bool
+[       OK ] type.bool (0 ms)
+[ RUN      ] type.none
+[       OK ] type.none (0 ms)
+[ RUN      ] type.enforce
+[       OK ] type.enforce (0 ms)
+[ RUN      ] type.min
+[       OK ] type.min (0 ms)
+[ RUN      ] type.minmax
+[       OK ] type.minmax (0 ms)
+[ RUN      ] type.char
+[       OK ] type.char (1 ms)
+[ RUN      ] type.octet
+[       OK ] type.octet (0 ms)
+[----------] 12 tests from type (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test case ran. (3 ms total)
+[  PASSED  ] 11 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] type.validate
+
+ 1 FAILED TEST
+error: testmod_type
+
+Running testmod_uname
+Running testmod_validation
+Running testmod_xerces
+Running testmod_xmltool
+Running testmod_yajl
+
+YAJL       TESTS
+==================
+
+Test next not below
+Test reverse level
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_null.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 2, size(mmks2): 3
+mmks1:
+0x55bf0e719940 key: user/tests/yajl/nullkey, string: , binary: 
+0x55bf0e719a70 key: user/tests/yajl/second_nullkey, string: , binary: 
+mmks2:
+0x55bf0e7181a0 key: user/tests/yajl, string: 
+0x55bf0e717d10 key: user/tests/yajl/nullkey, string: , binary: 
+0x55bf0e717b60 key: user/tests/yajl/second_nullkey, string: , binary: 
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_boolean.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 2, size(mmks2): 3
+mmks1:
+0x55bf0e7198c0 key: user/tests/yajl/boolean_key, string: true, type: boolean
+0x55bf0e7199f0 key: user/tests/yajl/second_boolean_key, string: false, type: boolean
+mmks2:
+0x55bf0e717d10 key: user/tests/yajl, string: 
+0x55bf0e717e90 key: user/tests/yajl/boolean_key, string: true, type: boolean
+0x55bf0e718130 key: user/tests/yajl/second_boolean_key, string: false, type: boolean
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_number.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 3, size(mmks2): 4
+mmks1:
+0x55bf0e719930 key: user/tests/yajl/number_key, string: 25, type: double
+0x55bf0e719d10 key: user/tests/yajl/second_number_key, string: 23002390202, type: double
+0x55bf0e719f20 key: user/tests/yajl/third_number_key, string: 230020202.233, type: double
+mmks2:
+0x55bf0e7199f0 key: user/tests/yajl, string: 
+0x55bf0e719b50 key: user/tests/yajl/number_key, string: 25, type: double
+0x55bf0e717e40 key: user/tests/yajl/second_number_key, string: 23002390202, type: double
+0x55bf0e717db0 key: user/tests/yajl/third_number_key, string: 230020202.233, type: double
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_string.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 3, size(mmks2): 4
+mmks1:
+0x55bf0e7193c0 key: user/tests/yajl/second_string_key, string: some string
+0x55bf0e7192c0 key: user/tests/yajl/string_key, string: 25
+0x55bf0e719460 key: user/tests/yajl/third_string_key, string: escape {}; " \ problem
+mmks2:
+0x55bf0e717e40 key: user/tests/yajl, string: 
+0x55bf0e717fc0 key: user/tests/yajl/second_string_key, string: some string
+0x55bf0e717b60 key: user/tests/yajl/string_key, string: 25
+0x55bf0e719c30 key: user/tests/yajl/third_string_key, string: escape {}; " \ problem
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_maps.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 8, size(mmks2): 12
+mmks1:
+0x55bf0e719a30 key: user/tests/yajl/map/nested_map/second_string_key, string: some string
+0x55bf0e7199b0 key: user/tests/yajl/map/nested_map/string_key, string: 25
+0x55bf0e718670 key: user/tests/yajl/map/second_string_key, string: some string
+0x55bf0e718720 key: user/tests/yajl/map/string_key, string: 25
+0x55bf0e7188d0 key: user/tests/yajl/second_map/second_string_key, string: some string
+0x55bf0e718820 key: user/tests/yajl/second_map/string_key, string: 25
+0x55bf0e718a20 key: user/tests/yajl/second_string_key, string: some string
+0x55bf0e718b40 key: user/tests/yajl/string_key, string: 25
+mmks2:
+0x55bf0e717e90 key: user/tests/yajl, string: 
+0x55bf0e719410 key: user/tests/yajl/map, string: 
+0x55bf0e719460 key: user/tests/yajl/map/nested_map, string: 
+0x55bf0e717e40 key: user/tests/yajl/map/nested_map/second_string_key, string: some string
+0x55bf0e719b50 key: user/tests/yajl/map/nested_map/string_key, string: 25
+0x55bf0e7192c0 key: user/tests/yajl/map/second_string_key, string: some string
+0x55bf0e719370 key: user/tests/yajl/map/string_key, string: 25
+0x55bf0e718130 key: user/tests/yajl/second_map, string: 
+0x55bf0e717b60 key: user/tests/yajl/second_map/second_string_key, string: some string
+0x55bf0e717fc0 key: user/tests/yajl/second_map/string_key, string: 25
+0x55bf0e717ee0 key: user/tests/yajl/second_string_key, string: some string
+0x55bf0e717db0 key: user/tests/yajl/string_key, string: 25
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_array.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 14, size(mmks2): 15
+mmks1:
+0x55bf0e717360 key: user/tests/yajl/array, string: , array: #_12, binary: 
+0x55bf0e717f30 key: user/tests/yajl/array/#0, string: true, type: boolean
+0x55bf0e71af70 key: user/tests/yajl/array/#1, string: 25, type: double
+0x55bf0e71b190 key: user/tests/yajl/array/#2, string: some string
+0x55bf0e71b240 key: user/tests/yajl/array/#3, string: 0, type: double
+0x55bf0e71b4a0 key: user/tests/yajl/array/#4, string: 1, type: double
+0x55bf0e71b6c0 key: user/tests/yajl/array/#5, string: 2, type: double
+0x55bf0e71b8e0 key: user/tests/yajl/array/#6, string: 3, type: double
+0x55bf0e7186c0 key: user/tests/yajl/array/#7, string: more \ a
+0x55bf0e71b9e0 key: user/tests/yajl/array/#8, string: string "
+0x55bf0e71c390 key: user/tests/yajl/array/#9, string: string abc
+0x55bf0e71c490 key: user/tests/yajl/array/#_10, string: def abc
+0x55bf0e71c3e0 key: user/tests/yajl/array/#_11, string: false, type: boolean
+0x55bf0e71c7e0 key: user/tests/yajl/array/#_12, string: 42, type: double
+mmks2:
+0x55bf0e718d40 key: user/tests/yajl, string: 
+0x55bf0e718cb0 key: user/tests/yajl/array, string: 
+0x55bf0e719a30 key: user/tests/yajl/array/#0, string: true, type: boolean
+0x55bf0e718720 key: user/tests/yajl/array/#1, string: 25, type: double
+0x55bf0e7188d0 key: user/tests/yajl/array/#2, string: some string
+0x55bf0e718a20 key: user/tests/yajl/array/#3, string: 0, type: double
+0x55bf0e719690 key: user/tests/yajl/array/#4, string: 1, type: double
+0x55bf0e7194b0 key: user/tests/yajl/array/#5, string: 2, type: double
+0x55bf0e719b50 key: user/tests/yajl/array/#6, string: 3, type: double
+0x55bf0e7192c0 key: user/tests/yajl/array/#7, string: more \ a
+0x55bf0e7193c0 key: user/tests/yajl/array/#8, string: string "
+0x55bf0e719370 key: user/tests/yajl/array/#9, string: string abc
+0x55bf0e718130 key: user/tests/yajl/array/#_10, string: def abc
+0x55bf0e719c30 key: user/tests/yajl/array/#_11, string: false, type: boolean
+0x55bf0e718050 key: user/tests/yajl/array/#_12, string: 42, type: double
+Test json with /usr/share/libelektra-test/test-data/yajl/testdata_below.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 2, size(mmks2): 10
+mmks1:
+0x55bf0e718d20 key: user/tests/yajl/fancy/path/below/v/y/z, string: val2
+0x55bf0e7199b0 key: user/tests/yajl/fancy/path/below/x/y/z, string: val1
+mmks2:
+0x55bf0e719b50 key: user/tests/yajl, string: 
+0x55bf0e7192c0 key: user/tests/yajl/fancy, string: 
+0x55bf0e7187d0 key: user/tests/yajl/fancy/path, string: 
+0x55bf0e719370 key: user/tests/yajl/fancy/path/below, string: 
+0x55bf0e717ee0 key: user/tests/yajl/fancy/path/below/v, string: 
+0x55bf0e718050 key: user/tests/yajl/fancy/path/below/v/y, string: 
+0x55bf0e718dc0 key: user/tests/yajl/fancy/path/below/v/y/z, string: val2
+0x55bf0e717fc0 key: user/tests/yajl/fancy/path/below/x, string: 
+0x55bf0e717b60 key: user/tests/yajl/fancy/path/below/x/y, string: 
+0x55bf0e719c30 key: user/tests/yajl/fancy/path/below/x/y/z, string: val1
+Test json with /usr/share/libelektra-test/test-data/yajl/OpenICC_device_config_DB.json
+/home/markus/Projekte/Elektra/libelektra/src/plugins/yajl/testmod_yajl.c:483: error in test_json: Compare keyset failed, size of keysets are not equal with size(mmks1): 55, size(mmks2): 64
+mmks1:
+0x55bf0e717f30 key: user/tests/yajl/org/freedesktop/openicc/device/camera, string: , array: #1, binary: 
+0x55bf0e71dd30 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_manufacturer, string: Glasshuette
+0x55bf0e71de60 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_mnft, string: GLAS
+0x55bf0e71e180 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_model, string: ShinyGlass
+0x55bf0e71e280 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_serial, string: 1200000
+0x55bf0e71e2d0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/automatic_assigment, string: 1
+0x55bf0e71e4d0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/comment, string: nonsense example
+0x55bf0e71e5d0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/creation_date, string: 05/08/11 11:59:50
+0x55bf0e71e6c0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/expire_date, string: 08/08/11 11:59:50
+0x55bf0e71e7d0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/icc_profile, string: profile_name.icc
+0x55bf0e71c5d0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/prefix, string: EXIF_
+0x55bf0e718e10 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_manufacturer, string: ConquerLight
+0x55bf0e71dfb0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_mnft, string: CON
+0x55bf0e71ec20 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_model, string: Knips
+0x55bf0e71ed00 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_serial, string: 3400000
+0x55bf0e71edf0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/automatic_assigment, string: 1
+0x55bf0e71eef0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/creation_date, string: 05/08/11 11:59:50
+0x55bf0e71eff0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/expire_date, string: 08/08/11 11:59:50
+0x55bf0e71f100 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/icc_profile, string: profile_name2.icc
+0x55bf0e71f210 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/prefix, string: EXIF_
+0x55bf0e71f370 key: user/tests/yajl/org/freedesktop/openicc/device/monitor, string: , array: #1, binary: 
+0x55bf0e71f440 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_blue_x, string: 0.150391
+0x55bf0e71f570 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_blue_y, string: 0.120117
+0x55bf0e71f7f0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_date, string: 2007-T16
+0x55bf0e71e8e0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_gamma, string: 2.2
+0x55bf0e71e930 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_green_x, string: 0.320312
+0x55bf0e71fc70 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_green_y, string: 0.554688
+0x55bf0e71fd60 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_manufacturer, string: Vendor1
+0x55bf0e71fe70 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_mnft, string: VEN
+0x55bf0e71ff80 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_mnft_id, string: 12
+0x55bf0e720090 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_model, string: LCD1
+0x55bf0e7201a0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_model_id, string: 123
+0x55bf0e7202b0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_red_x, string: 0.599609
+0x55bf0e7203c0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_red_y, string: 0.34375
+0x55bf0e7204d0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_serial, string: ABCD
+0x55bf0e7205e0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_white_x, string: 0.313477
+0x55bf0e7206f0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_white_y, string: 0.329102
+0x55bf0e720800 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/prefix, string: EDID_
+0x55bf0e71f640 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_blue_x, string: 0.150391
+0x55bf0e720960 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_blue_y, string: 0.120117
+0x55bf0e720c00 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_date, string: 2001-T12
+0x55bf0e720d10 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_gamma, string: 2.2
+0x55bf0e720d60 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_green_x, string: 0.320312
+0x55bf0e720f50 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_green_y, string: 0.554688
+0x55bf0e721040 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_manufacturer, string: NEC
+0x55bf0e721150 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_mnft, string: NEC
+0x55bf0e721260 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_mnft_id, string: 34
+0x55bf0e721370 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_model, string: other monitor
+0x55bf0e721480 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_model_id, string: 456
+0x55bf0e721590 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_red_x, string: 0.599609
+0x55bf0e7216a0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_red_y, string: 0.34375
+0x55bf0e7217b0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_serial, string: other serial
+0x55bf0e7218c0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_white_x, string: 0.313477
+0x55bf0e7219d0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_white_y, string: 0.329102
+0x55bf0e721ae0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/prefix, string: EDID_
+mmks2:
+0x55bf0e71bfd0 key: user/tests/yajl, string: 
+0x55bf0e71bf50 key: user/tests/yajl/org, string: 
+0x55bf0e71beb0 key: user/tests/yajl/org/freedesktop, string: 
+0x55bf0e71be00 key: user/tests/yajl/org/freedesktop/openicc, string: 
+0x55bf0e71bd40 key: user/tests/yajl/org/freedesktop/openicc/device, string: 
+0x55bf0e71bc70 key: user/tests/yajl/org/freedesktop/openicc/device/camera, string: 
+0x55bf0e71bba0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0, string: 
+0x55bf0e71b680 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_manufacturer, string: Glasshuette
+0x55bf0e71b790 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_mnft, string: GLAS
+0x55bf0e71b9a0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_model, string: ShinyGlass
+0x55bf0e71b890 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/EXIF_serial, string: 1200000
+0x55bf0e71b230 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/automatic_assigment, string: 1
+0x55bf0e71b130 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/comment, string: nonsense example
+0x55bf0e71b460 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/creation_date, string: 05/08/11 11:59:50
+0x55bf0e71b350 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/expire_date, string: 08/08/11 11:59:50
+0x55bf0e71b570 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/icc_profile, string: profile_name.icc
+0x55bf0e71baa0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#0/prefix, string: EXIF_
+0x55bf0e71b060 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1, string: 
+0x55bf0e71ab40 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_manufacturer, string: ConquerLight
+0x55bf0e71ac50 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_mnft, string: CON
+0x55bf0e71ae60 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_model, string: Knips
+0x55bf0e71ad50 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/EXIF_serial, string: 3400000
+0x55bf0e71a6f0 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/automatic_assigment, string: 1
+0x55bf0e71a920 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/creation_date, string: 05/08/11 11:59:50
+0x55bf0e71a810 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/expire_date, string: 08/08/11 11:59:50
+0x55bf0e71aa30 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/icc_profile, string: profile_name2.icc
+0x55bf0e71af60 key: user/tests/yajl/org/freedesktop/openicc/device/camera/#1/prefix, string: EXIF_
+0x55bf0e71a620 key: user/tests/yajl/org/freedesktop/openicc/device/monitor, string: 
+0x55bf0e71a550 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0, string: 
+0x55bf0e7184f0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_blue_x, string: 0.150391
+0x55bf0e7183e0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_blue_y, string: 0.120117
+0x55bf0e717e40 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_date, string: 2007-T16
+0x55bf0e718c00 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_gamma, string: 2.2
+0x55bf0e719d20 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_green_x, string: 0.320312
+0x55bf0e718600 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_green_y, string: 0.554688
+0x55bf0e7194b0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_manufacturer, string: Vendor1
+0x55bf0e718b20 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_mnft, string: VEN
+0x55bf0e71a340 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_mnft_id, string: 12
+0x55bf0e71a120 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_model, string: LCD1
+0x55bf0e71a230 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_model_id, string: 123
+0x55bf0e719f00 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_red_x, string: 0.599609
+0x55bf0e719e10 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_red_y, string: 0.34375
+0x55bf0e71a010 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_serial, string: ABCD
+0x55bf0e7182d0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_white_x, string: 0.313477
+0x55bf0e7181c0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/EDID_white_y, string: 0.329102
+0x55bf0e71a450 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#0/prefix, string: EDID_
+0x55bf0e718d20 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1, string: 
+0x55bf0e717ee0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_blue_x, string: 0.150391
+0x55bf0e718050 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_blue_y, string: 0.120117
+0x55bf0e719460 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_date, string: 2001-T12
+0x55bf0e717fc0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_gamma, string: 2.2
+0x55bf0e719960 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_green_x, string: 0.320312
+0x55bf0e717db0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_green_y, string: 0.554688
+0x55bf0e719c30 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_manufacturer, string: NEC
+0x55bf0e717b60 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_mnft, string: NEC
+0x55bf0e717e90 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_mnft_id, string: 34
+0x55bf0e7192c0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_model, string: other monitor
+0x55bf0e719b50 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_model_id, string: 456
+0x55bf0e7193c0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_red_x, string: 0.599609
+0x55bf0e719370 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_red_y, string: 0.34375
+0x55bf0e7187d0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_serial, string: other serial
+0x55bf0e718dc0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_white_x, string: 0.313477
+0x55bf0e718130 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/EDID_white_y, string: 0.329102
+0x55bf0e7199b0 key: user/tests/yajl/org/freedesktop/openicc/device/monitor/#1/prefix, string: EDID_
+Test read write with /usr/share/libelektra-test/test-data/yajl/empty_object.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/empty_array.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/rfc_object.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/rfc_array.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_mixed.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_in_array.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_in_array_anon_map.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_nested.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_broken.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_special_ending.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_outside.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/keyframes_complex.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_mixed2.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_special_start.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_array_mixed3.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_empty_in_array.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_empty_in_map.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_empty_in_array1.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_empty_in_map2.json
+Test read write with /usr/share/libelektra-test/test-data/yajl/testdata_empty_in_map1.json
+
+test_yajl Results: 302 Tests done — 8 errors.
+error: testmod_yajl
+
+Running testmod_yamlsmith
+Running testmod_zeromqsend
+
+ZEROMQSEND TESTS
+================
+
+zeromq version is 4.2.1
+test commit notification
+test connect timeout
+/home/markus/Projekte/Elektra/libelektra/src/plugins/zeromqsend/testmod_zeromqsend.c:246: error in test_timeoutConnect: string "195" is not equal to "C01300"
+test subscribe message timeout
+
+testmod_zeromqsend Results: 23 Tests done — 1 error.
+error: testmod_zeromqsend
+
+Running testtool_automergestrategy
+Running testtool_backend
+Running testtool_backendbuilder
+Running testtool_backendparser
+Running testtool_comparison
+Running testtool_keyhelper
+Running testtool_mergecases
+Running testtool_mergeresult
+Running testtool_mergingkdb
+Running testtool_metamergestrategy
+Running testtool_newkeystrategy
+Running testtool_onesidestrategy
+Running testtool_plugindatabase
+Running testtool_pluginspec
+Running testtool_samemountpoint
+Running testtool_specreader
+Running testtool_umount
+Running check-env-dep
+Running check_basic
+Running check_distribution
+Running check_doc
+Running check_error
+
+
+ELEKTRA CHECK ERROR
+
+Check if script tests the correct version
+Testing operations on erroneous backends
+error: Triggered error did not occur, got Sorry, module error issued the error C01410:
+Internal: Unkown error code 10
+error: Error does not stem from error plugin
+error: Triggered error did not occur, got Sorry, module error issued the error C01410:
+Internal: Unkown error code 10
+error: Error does not stem from error plugin, got Sorry, module error issued the error C01410:
+Internal: Unkown error code 10
+check_error RESULTS: 20 test(s) done 4 error(s).
+error: check_error
+
+Running check_export
+Running check_get_set
+Running check_import
+Running check_kdb_internal_check
+Running check_kdb_internal_suite
+Running check_merge
+Running check_meta
+Running check_mount
+Running check_race
+Running check_real_world
+Running check_resolver
+Running check_spec
+
+Following test cases failed: 
+test_opts
+test_splitget
+test_splitset
+testmod_blockresolver
+testmod_ini
+testmod_lua
+testmod_network
+testmod_reference
+testmod_type
+testmod_yajl
+testmod_zeromqsend
+check_error
+
+run_all RESULTS: 144 test(s) done 12 error(s).

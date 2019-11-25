@@ -1,0 +1,1328 @@
+
+RUN ALL TESTS
+
+Check if script tests the correct version
+
+Running test_args
+Running test_array
+Running test_backend
+Running test_context
+Running test_fork
+Running test_getenv
+Running test_globbing
+Running test_internal
+Running test_key
+Running test_keyname
+Running test_ks
+Running test_ks_opmphm
+Running test_meta
+Running test_mount
+Running test_mountsplit
+Running test_namespace
+Running test_operation
+Running test_opmphm
+Running test_opmphm_predictor
+Running test_opts
+Running test_order
+Running test_plugin
+Running test_proposal
+Running test_size
+Running test_spec
+Running test_split
+Running test_splitget
+Running test_splitset
+Running test_storage
+Running test_trie
+Running test_utility
+Running testabi_key
+Running testabi_ks
+Running testabi_meta
+Running testabi_rel
+Running testcpp_contextual_basic
+Running testcpp_contextual_nocontext
+Running testcpp_contextual_policy
+Running testcpp_contextual_thread
+Running testcpp_contextual_update
+Running testcpp_iter
+Running testcpp_iter_name
+Running testcpp_kdb
+Running testcpp_key
+Running testcpp_keyio
+Running testcpp_ks
+Running testcpp_ksget
+Running testcpp_meta
+Running testmod_augeas
+Running testmod_base64
+Running testmod_blockresolver
+Running testmod_boolean
+Running testmod_cache
+Running testmod_cachefilter
+Running testmod_camel
+Running testmod_ccode
+Running testmod_conditionals
+Running testmod_cpptemplate
+Running testmod_cpptype
+Running testmod_crypto_botan
+Running testmod_crypto_gcrypt
+Running testmod_crypto_openssl
+Running testmod_csvstorage
+Running testmod_date
+Running testmod_dbus
+Running testmod_directoryvalue
+Running testmod_dump
+Running testmod_enum
+Running testmod_fcrypt
+Running testmod_file
+Running testmod_filecheck
+Running testmod_fstab
+Running testmod_glob
+Running testmod_gopts
+
+GOPTS     TESTS
+==================
+
+test empty
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+GOPTS     TESTS
+==================
+
+test empty
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test singleenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+st twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoopt
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test twoenv
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+SCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+SCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+SCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+SCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+SCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+test mixed
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/gopts/testmod_gopts.c:78: error in run_test: child process test failed
+
+testmod_gopts Results: 4 Tests done — 92 errors.
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/tests/cframework/tests.c:523: error in clean_temp_home: Could not delete TMPHOME via nftw
+error: testmod_gopts
+
+Running testmod_gpgme
+Running testmod_hexcode
+Running testmod_hexnumber
+Running testmod_hosts
+Running testmod_iconv
+Running testmod_ini
+Running testmod_internalnotification
+Running testmod_ipaddr
+Running testmod_iterate
+Running testmod_keytometa
+Running testmod_line
+Running testmod_lineendings
+Running testmod_list
+Running testmod_lua
+
+LUA         TESTS
+==================
+
+Testing simple variable passing...
+There are 1 warnings
+buffer is: warnings/#00
+number: C01330
+description: Plugin Misbehavior
+module: kdb
+file: /home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/libs/elektra/plugin.c
+line: 302
+reason: Open of plugin returned unsuccessfully: lua. Reason contains plugin, see other warnings for details
+reason: 
+reason: 
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/lua/testmod_lua.c:24: error in test_variable_passing: warnings in kdbOpen for plugin lua
+number: C01200
+description: : Installation
+module: : lua
+at: /home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/lua/lua.cpp:172
+reason: : module 'kdb' not found:
+	no field package.preload['kdb']
+	no file '/usr/local/share/lua/5.3/kdb.lua'
+	no file '/usr/local/share/lua/5.3/kdb/init.lua'
+	no file '/usr/local/lib/lua/5.3/kdb.lua'
+	no file '/usr/local/lib/lua/5.3/kdb/init.lua'
+	no file '/usr/share/lua/5.3/kdb.lua'
+	no file '/usr/share/lua/5.3/kdb/init.lua'
+	no file './kdb.lua'
+	no file './kdb/init.lua'
+	no file '/usr/local/lib/lua/5.3/kdb.so'
+	no file '/usr/lib/x86_64-linux-gnu/lua/5.3/kdb.so'
+	no file '/usr/lib/lua/5.3/kdb.so'
+	no file '/usr/local/lib/lua/5.3/loadall.so'
+	no file './kdb.so'
+mountpoint: : 
+configfile: : 
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/lua/testmod_lua.c:24: error in test_variable_passing: error in kdbOpen for plugin lua
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/lua/testmod_lua.c:24: fatal in test_variable_passing: could not open lua plugin
+error: testmod_lua
+
+Running testmod_macaddr
+Running testmod_mathcheck
+Running testmod_mini
+Running testmod_mmapstorage
+Running testmod_mmapstorage_crc
+Running testmod_mozprefs
+Running testmod_network
+Running testmod_ni
+Running testmod_passwd
+Running testmod_process
+Running testmod_python
+Running testmod_python2
+Running testmod_quickdump
+
+
+error: testmod_quickdump
+
+Running testmod_range
+Running testmod_reference
+Running testmod_rename
+Running testmod_resolver
+Running testmod_rgbcolor
+Running testmod_simpleini
+Running testmod_spec
+Running testmod_specload
+
+SPECLOAD     TESTS
+==================
+
+test basics
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/specload/testmod_specload.c:63: error in test_basics: call to checkConfig was not successful
+There are 1 warnings
+buffer is: warnings/#00
+number: C01330
+description: Plugin Misbehavior
+module: kdb
+file: /home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/libs/elektra/plugin.c
+line: 302
+reason: Open of plugin returned unsuccessfully: specload. Reason contains plugin, see other warnings for details
+reason: 
+reason: 
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/specload/testmod_specload.c:65: error in test_basics: warnings in kdbOpen for plugin specload
+number: C01100
+description: : Resource
+module: : specload
+at: /home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/specload/specload.c:372
+reason: : App '/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/obj-x86_64-linux-gnu/bin/elektra-specload-testapp' doesn't exist or is not executable
+mountpoint: : 
+configfile: : 
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/specload/testmod_specload.c:65: error in test_basics: error in kdbOpen for plugin specload
+/home/jenkins/workspace/libelektra_master-Q2SIBK3KE2NBEMJ4WVGJXAXCSCB77DUBUULVLZDKHQEV3WNDXBMA/libelektra/src/plugins/specload/testmod_specload.c:65: fatal in test_basics: could not open specload plugin
+error: testmod_specload
+
+Running testmod_template
+Running testmod_type
+Running testmod_uname
+Running testmod_unit
+Running testmod_validation
+Running testmod_xerces
+Running testmod_xmltool
+Running testmod_yajl
+Running testmod_yambi
+Running testmod_yamlsmith
+Running testmod_yaypeg
+Running testmod_zeromqsend
+Running testtool_automergestrategy
+Running testtool_backend
+Running testtool_backendbuilder
+Running testtool_backendparser
+Running testtool_comparison
+Running testtool_keyhelper
+Running testtool_mergecases
+Running testtool_mergeresult
+Running testtool_mergingkdb
+Running testtool_metamergestrategy
+Running testtool_newkeystrategy
+Running testtool_onesidestrategy
+Running testtool_plugindatabase
+Running testtool_pluginspec
+Running testtool_samemountpoint
+Running testtool_specreader
+Running testtool_umount
+Running check-env-dep
+Running check_basic
+Running check_cmd_line_arguments
+Running check_distribution
+Running check_doc
+Running check_error
+Running check_export
+Running check_get_set
+Running check_import
+Running check_kdb_internal_check
+Running check_kdb_internal_suite
+Running check_merge
+Running check_meta
+Running check_mount
+Running check_race
+Running check_real_world
+
+
+ELEKTRA CHECK REAL WORLD SUITE
+
+Check if script tests the correct version
+fatal (no cleanup necessary): files /home/markus/.config/test_real_world_root.ecf in /home/markus/.config would be removed during tests, so test is aborted
+error: check_real_world
+
+Running check_resolver
+Running check_spec
+
+Following test cases failed: 
+testmod_gopts
+testmod_lua
+testmod_quickdump
+testmod_specload
+check_real_world
+
+run_all RESULTS: 156 test(s) done 5 error(s).

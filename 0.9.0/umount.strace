@@ -1,0 +1,433 @@
+execve("/usr/bin/kdb", ["kdb", "umount", "user/release_test"], [/* 65 vars */]) = 0
+brk(NULL)                               = 0x5576e27d3000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/x86_64/libelektratools.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7ffc4ae8c120) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libelektratools.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7ffc4ae8c120)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libelektratools.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7ffc4ae8c120) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libelektratools.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=159693, ...}) = 0
+mmap(NULL, 159693, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe517801000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektratools.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\257\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=525280, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe5177ff000
+mmap(NULL, 2620344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe517385000
+mprotect(0x7fe517402000, 2097152, PROT_NONE) = 0
+mmap(0x7fe517602000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7d000) = 0x7fe517602000
+close(3)                                = 0
+open("/usr/lib/libelektra-kdb.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-kdb.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97144, ...}) = 0
+mmap(NULL, 2192208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe51716d000
+mprotect(0x7fe517183000, 2097152, PROT_NONE) = 0
+mmap(0x7fe517383000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fe517383000
+close(3)                                = 0
+open("/usr/lib/libelektra-ease.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-ease.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10496, ...}) = 0
+mmap(NULL, 2105640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe516f6a000
+mprotect(0x7fe516f6c000, 2093056, PROT_NONE) = 0
+mmap(0x7fe51716b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe51716b000
+close(3)                                = 0
+open("/usr/lib/libelektra-core.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-core.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00009\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=64568, ...}) = 0
+mmap(NULL, 2159712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe516d5a000
+mprotect(0x7fe516d69000, 2093056, PROT_NONE) = 0
+mmap(0x7fe516f68000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fe516f68000
+close(3)                                = 0
+open("/usr/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\267\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566168, ...}) = 0
+mmap(NULL, 3674720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe5169d8000
+mprotect(0x7fe516b4a000, 2097152, PROT_NONE) = 0
+mmap(0x7fe516d4a000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7fe516d4a000
+mmap(0x7fe516d56000, 12896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe516d56000
+close(3)                                = 0
+open("/usr/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=92584, ...}) = 0
+mmap(NULL, 2188336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe5167c1000
+mprotect(0x7fe5167d7000, 2093056, PROT_NONE) = 0
+mmap(0x7fe5169d6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fe5169d6000
+close(3)                                = 0
+open("/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\4\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1689360, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe5177fd000
+mmap(NULL, 3795296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe516422000
+mprotect(0x7fe5165b7000, 2097152, PROT_NONE) = 0
+mmap(0x7fe5167b7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x195000) = 0x7fe5167b7000
+mmap(0x7fe5167bd000, 14688, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe5167bd000
+close(3)                                = 0
+open("/usr/lib/libelektra-plugin.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-plugin.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\6\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=6160, ...}) = 0
+mmap(NULL, 2101304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe516220000
+mprotect(0x7fe516221000, 2093056, PROT_NONE) = 0
+mmap(0x7fe516420000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x7fe516420000
+close(3)                                = 0
+open("/usr/lib/libelektra-meta.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-meta.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18760, ...}) = 0
+mmap(NULL, 2113904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe51601b000
+mprotect(0x7fe51601f000, 2093056, PROT_NONE) = 0
+mmap(0x7fe51621e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe51621e000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elektra4/tls/x86_64", 0x7ffc4ae8be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/elektra4/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elektra4/tls", 0x7ffc4ae8be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/elektra4/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elektra4/x86_64", 0x7ffc4ae8be30) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/elektra4/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elektra4", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14640, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe515e17000
+mprotect(0x7fe515e1a000, 2093056, PROT_NONE) = 0
+mmap(0x7fe516019000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe516019000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1063328, ...}) = 0
+mmap(NULL, 3158248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe515b13000
+mprotect(0x7fe515c16000, 2093056, PROT_NONE) = 0
+mmap(0x7fe515e15000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x102000) = 0x7fe515e15000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-proposal.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-proposal.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10496, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe5177fb000
+mmap(NULL, 2105640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe515910000
+mprotect(0x7fe515912000, 2093056, PROT_NONE) = 0
+mmap(0x7fe515b11000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe515b11000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe5177f8000
+arch_prctl(ARCH_SET_FS, 0x7fe5177f8740) = 0
+mprotect(0x7fe5167b7000, 16384, PROT_READ) = 0
+mprotect(0x7fe516019000, 4096, PROT_READ) = 0
+mprotect(0x7fe516f68000, 4096, PROT_READ) = 0
+mprotect(0x7fe515b11000, 4096, PROT_READ) = 0
+mprotect(0x7fe515e15000, 4096, PROT_READ) = 0
+mprotect(0x7fe51716b000, 4096, PROT_READ) = 0
+mprotect(0x7fe51621e000, 4096, PROT_READ) = 0
+mprotect(0x7fe516420000, 4096, PROT_READ) = 0
+mprotect(0x7fe5169d6000, 4096, PROT_READ) = 0
+mprotect(0x7fe516d4a000, 40960, PROT_READ) = 0
+mprotect(0x7fe517383000, 4096, PROT_READ) = 0
+mprotect(0x7fe517602000, 8192, PROT_READ) = 0
+mprotect(0x5576e228f000, 16384, PROT_READ) = 0
+mprotect(0x7fe517828000, 4096, PROT_READ) = 0
+munmap(0x7fe517801000, 159693)          = 0
+brk(NULL)                               = 0x5576e27d3000
+brk(0x5576e2805000)                     = 0x5576e2805000
+rt_sigaction(SIGILL, {sa_handler=0x5576e1ffc8e0, sa_mask=[ILL], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe516455060}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, {sa_handler=0x5576e1ffc8e0, sa_mask=[ABRT], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe516455060}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, {sa_handler=0x5576e1ffc8e0, sa_mask=[FPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe516455060}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x5576e1ffc8e0, sa_mask=[SEGV], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fe516455060}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-resolver.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=55976, ...}) = 0
+mmap(NULL, 2151120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe515702000
+mprotect(0x7fe51570e000, 2097152, PROT_NONE) = 0
+mmap(0x7fe51590e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fe51590e000
+close(3)                                = 0
+open("/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=159693, ...}) = 0
+mmap(NULL, 159693, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe517801000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Pa\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135440, ...}) = 0
+mmap(NULL, 2212936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe5154e5000
+mprotect(0x7fe5154fd000, 2093056, PROT_NONE) = 0
+mmap(0x7fe5156fc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fe5156fc000
+mmap(0x7fe5156fe000, 13384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe5156fe000
+close(3)                                = 0
+mprotect(0x7fe5156fc000, 4096, PROT_READ) = 0
+mprotect(0x7fe51590e000, 4096, PROT_READ) = 0
+set_tid_address(0x7fe5177f8a10)         = 29068
+set_robust_list(0x7fe5177f8a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fe5154eabd0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fe5154f60e0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fe5154eac60, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fe5154f60e0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7fe517801000, 159693)          = 0
+getpid()                                = 29068
+getcwd("/home/markus/Projekte/Elektra/build", 4096) = 36
+stat("/home/markus/Projekte/Elektra/build/.dir/elektra.ecf", 0x7ffc4ae8c140) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/.dir/elektra.ecf", 0x7ffc4ae8c140) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/.dir/elektra.ecf", 0x7ffc4ae8c140) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.dir/elektra.ecf", 0x7ffc4ae8c140) = -1 ENOENT (No such file or directory)
+stat("/home/.dir/elektra.ecf", 0x7ffc4ae8c140) = -1 ENOENT (No such file or directory)
+stat("//.dir/elektra.ecf", 0x7ffc4ae8c140) = -1 ENOENT (No such file or directory)
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-storage.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@.\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43832, ...}) = 0
+mmap(NULL, 2138816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe5152da000
+mprotect(0x7fe5152e3000, 2097152, PROT_NONE) = 0
+mmap(0x7fe5154e3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fe5154e3000
+close(3)                                = 0
+mprotect(0x7fe5154e3000, 4096, PROT_READ) = 0
+stat("/etc/kdb/elektra.ecf", {st_mode=S_IFREG|0644, st_size=1996, ...}) = 0
+open("/etc/kdb/elektra.ecf", O_RDONLY)  = 3
+read(3, "kdbOpen 1\nksNew 15\nkeyNew 46 72\n"..., 8191) = 1996
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-list.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\27\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=27136, ...}) = 0
+mmap(NULL, 2122288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe5150d3000
+mprotect(0x7fe5150d8000, 2097152, PROT_NONE) = 0
+mmap(0x7fe5152d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fe5152d8000
+close(3)                                = 0
+open("/usr/lib/libelektra-invoke.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=159693, ...}) = 0
+mmap(NULL, 159693, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe517801000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-invoke.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10408, ...}) = 0
+mmap(NULL, 2105552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe514ed0000
+mprotect(0x7fe514ed2000, 2093056, PROT_NONE) = 0
+mmap(0x7fe5150d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe5150d1000
+close(3)                                = 0
+open("/usr/lib/libelektra.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0F\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=146872, ...}) = 0
+mmap(NULL, 2241936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe514cac000
+mprotect(0x7fe514ccf000, 2093056, PROT_NONE) = 0
+mmap(0x7fe514ece000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7fe514ece000
+close(3)                                = 0
+mprotect(0x7fe514ece000, 4096, PROT_READ) = 0
+mprotect(0x7fe5150d1000, 4096, PROT_READ) = 0
+mprotect(0x7fe5152d8000, 4096, PROT_READ) = 0
+munmap(0x7fe517801000, 159693)          = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-cache.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18768, ...}) = 0
+mmap(NULL, 2113912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe514aa7000
+mprotect(0x7fe514aab000, 2093056, PROT_NONE) = 0
+mmap(0x7fe514caa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe514caa000
+close(3)                                = 0
+mprotect(0x7fe514caa000, 4096, PROT_READ) = 0
+getpid()                                = 29068
+stat("/home/markus/.cache/elektra", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-mmapstorage.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22864, ...}) = 0
+mmap(NULL, 2118208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe5148a1000
+mprotect(0x7fe5148a6000, 2093056, PROT_NONE) = 0
+mmap(0x7fe514aa5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fe514aa5000
+close(3)                                = 0
+mprotect(0x7fe514aa5000, 4096, PROT_READ) = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-resolver_fm_hpu_b.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=55976, ...}) = 0
+close(3)                                = 0
+getpid()                                = 29068
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-dump.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@.\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=43832, ...}) = 0
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-sync.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\v\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14488, ...}) = 0
+mmap(NULL, 2109632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe51469d000
+mprotect(0x7fe5146a0000, 2093056, PROT_NONE) = 0
+mmap(0x7fe51489f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe51489f000
+close(3)                                = 0
+mprotect(0x7fe51489f000, 4096, PROT_READ) = 0
+getpid()                                = 29068
+getcwd("/home/markus/Projekte/Elektra/build", 4096) = 36
+stat("/home/markus/Projekte/Elektra/build/.dir/default.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/.dir/default.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/.dir/default.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.dir/default.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/.dir/default.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("//.dir/default.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+getcwd("/home/markus/Projekte/Elektra/build", 4096) = 36
+stat("/home/markus/Projekte/Elektra/build/.dir/elektra.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/.dir/elektra.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/.dir/elektra.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.dir/elektra.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("/home/.dir/elektra.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+stat("//.dir/elektra.ecf", 0x7ffc4ae8c100) = -1 ENOENT (No such file or directory)
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+stat("/home/markus/.cache/elektra", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+brk(0x5576e2826000)                     = 0x5576e2826000
+getpid()                                = 29068
+getcwd("/home/markus/Projekte/Elektra/build", 4096) = 36
+stat("/home/markus/Projekte/Elektra/build/.dir/elektra.ecf", 0x7ffc4ae8bc10) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/.dir/elektra.ecf", 0x7ffc4ae8bc10) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/.dir/elektra.ecf", 0x7ffc4ae8bc10) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.dir/elektra.ecf", 0x7ffc4ae8bc10) = -1 ENOENT (No such file or directory)
+stat("/home/.dir/elektra.ecf", 0x7ffc4ae8bc10) = -1 ENOENT (No such file or directory)
+stat("//.dir/elektra.ecf", 0x7ffc4ae8bc10) = -1 ENOENT (No such file or directory)
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+stat("/etc/kdb/elektra.ecf", {st_mode=S_IFREG|0644, st_size=1996, ...}) = 0
+open("/etc/kdb/elektra.ecf", O_RDONLY)  = 3
+read(3, "kdbOpen 1\nksNew 15\nkeyNew 46 72\n"..., 8191) = 1996
+close(3)                                = 0
+getpid()                                = 29068
+stat("/home/markus/.cache/elektra", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getpid()                                = 29068
+getpid()                                = 29068
+getcwd("/home/markus/Projekte/Elektra/build", 4096) = 36
+stat("/home/markus/Projekte/Elektra/build/.dir/default.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/.dir/default.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/.dir/default.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.dir/default.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/.dir/default.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("//.dir/default.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+getcwd("/home/markus/Projekte/Elektra/build", 4096) = 36
+stat("/home/markus/Projekte/Elektra/build/.dir/elektra.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/.dir/elektra.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/.dir/elektra.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.dir/elektra.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("/home/.dir/elektra.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+stat("//.dir/elektra.ecf", 0x7ffc4ae8bbd0) = -1 ENOENT (No such file or directory)
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+getpid()                                = 29068
+stat("/home/markus/.cache/elektra", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/home/markus/.cache/elektra/default/", W_OK) = 0
+open("/home/markus/.cache/elektra/default//cache_cascading.mmap", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=80912, ...}) = 0
+mmap(NULL, 80912, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x7fe517814000
+close(3)                                = 0
+stat("/usr/share/elektra/specification/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/build/.dir/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.config/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/etc/kdb/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+access("/home/markus/.cache/elektra/default/", W_OK) = 0
+open("/home/markus/.cache/elektra/default//cache_cascading.mmap", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=80912, ...}) = 0
+mmap(NULL, 80912, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x7fe5177e4000
+close(3)                                = 0
+stat("/usr/share/elektra/specification/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/build/.dir/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.config/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/etc/kdb/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+access("/home/markus/.cache/elektra/default/", W_OK) = 0
+open("/home/markus/.cache/elektra/default//cache_cascading.mmap", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=80912, ...}) = 0
+mmap(NULL, 80912, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x7fe5177d0000
+close(3)                                = 0
+stat("/usr/share/elektra/specification/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/home/markus/Projekte/Elektra/build/.dir/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/home/markus/.config/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+stat("/etc/kdb/default.ecf", 0x7ffc4ae8bd00) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+geteuid()                               = 1000
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+access("/home/markus/.cache/elektra/default/", W_OK) = 0
+open("/home/markus/.cache/elektra/default//cache.mmap", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=79472, ...}) = 0
+mmap(NULL, 79472, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x7fe5177bc000
+close(3)                                = 0
+stat("/etc/kdb/elektra.ecf", {st_mode=S_IFREG|0644, st_size=1996, ...}) = 0
+open("/etc/kdb/elektra.ecf", O_RDONLY)  = 3
+read(3, "kdbOpen 1\nksNew 15\nkeyNew 46 72\n"..., 8191) = 1996
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elektra4/libelektra-spec.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\24\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31112, ...}) = 0
+mmap(NULL, 2126256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe514495000
+mprotect(0x7fe51449c000, 2093056, PROT_NONE) = 0
+mmap(0x7fe51469b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fe51469b000
+close(3)                                = 0
+open("/usr/lib/libelektra-globbing.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=159693, ...}) = 0
+mmap(NULL, 159693, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe517795000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelektra-globbing.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\n\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10384, ...}) = 0
+mmap(NULL, 2105528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe514292000
+mprotect(0x7fe514294000, 2093056, PROT_NONE) = 0
+mmap(0x7fe514493000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe514493000
+close(3)                                = 0
+mprotect(0x7fe514493000, 4096, PROT_READ) = 0
+mprotect(0x7fe51469b000, 4096, PROT_READ) = 0
+munmap(0x7fe517795000, 159693)          = 0
+access("/home/markus/.cache/elektra/default/", W_OK) = 0
+getpid()                                = 29068
+unlink("/home/markus/.cache/elektra/default//cache.mmap.29068:1565085238.782751.tmp") = -1 ENOENT (No such file or directory)
+open("/home/markus/.cache/elektra/default//cache.mmap.29068:1565085238.782751.tmp", O_RDWR|O_CREAT|O_TRUNC, 0600) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+ftruncate(3, 47520)                     = 0
+mmap(NULL, 47520, PROT_READ|PROT_WRITE, MAP_SHARED, 3, 0) = 0x7fe517808000
+msync(0x7fe517808000, 47520, MS_SYNC)   = 0
+munmap(0x7fe517808000, 47520)           = 0
+close(3)                                = 0
+rename("/home/markus/.cache/elektra/default//cache.mmap.29068:1565085238.782751.tmp", "/home/markus/.cache/elektra/default//cache.mmap") = 0
+access("/etc/kdb", W_OK|X_OK)           = 0
+unlink("/etc/kdb/elektra.ecf")          = 0
+munmap(0x7fe5148a1000, 2118208)         = 0
+munmap(0x7fe514495000, 2126256)         = 0
+munmap(0x7fe514292000, 2105528)         = 0
+munmap(0x7fe51469d000, 2109632)         = 0
+munmap(0x7fe515702000, 2151120)         = 0
+munmap(0x7fe5150d3000, 2122288)         = 0
+munmap(0x7fe514ed0000, 2105552)         = 0
+munmap(0x7fe514cac000, 2241936)         = 0
+munmap(0x7fe5152da000, 2138816)         = 0
+munmap(0x7fe514aa7000, 2113912)         = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

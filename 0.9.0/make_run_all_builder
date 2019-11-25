@@ -1,0 +1,504 @@
+Scanning dependencies of target run_all
+Test project /home/markus/Projekte/Elektra/build/builder
+        Start   1: testtool_automergestrategy
+        Start   2: testtool_backend
+        Start   3: testtool_backendbuilder
+        Start   4: testtool_backendparser
+        Start   5: testtool_comparison
+        Start   6: testtool_keyhelper
+        Start   7: testtool_mergecases
+        Start   8: testtool_mergeresult
+  1/240 Test   #2: testtool_backend ............................   Passed    0.01 sec
+  2/240 Test   #5: testtool_comparison .........................   Passed    0.00 sec
+  3/240 Test   #4: testtool_backendparser ......................   Passed    0.00 sec
+  4/240 Test   #3: testtool_backendbuilder .....................   Passed    0.10 sec
+  5/240 Test   #1: testtool_automergestrategy ..................   Passed    0.11 sec
+  6/240 Test   #6: testtool_keyhelper ..........................   Passed    0.10 sec
+  7/240 Test   #7: testtool_mergecases .........................   Passed    0.10 sec
+  8/240 Test   #8: testtool_mergeresult ........................   Passed    0.10 sec
+        Start   9: testtool_mergingkdb
+        Start  10: testtool_metamergestrategy
+        Start  11: testtool_newkeystrategy
+        Start  12: testtool_onesidestrategy
+        Start  13: testtool_plugindatabase
+        Start  14: testtool_pluginspec
+        Start  15: testtool_samemountpoint
+        Start  16: testtool_specreader
+  9/240 Test  #10: testtool_metamergestrategy ..................   Passed    0.00 sec
+ 10/240 Test  #11: testtool_newkeystrategy .....................   Passed    0.00 sec
+ 11/240 Test  #12: testtool_onesidestrategy ....................   Passed    0.10 sec
+ 12/240 Test  #13: testtool_plugindatabase .....................   Passed    0.10 sec
+ 13/240 Test  #14: testtool_pluginspec .........................   Passed    0.10 sec
+ 14/240 Test  #15: testtool_samemountpoint .....................   Passed    0.10 sec
+ 15/240 Test  #16: testtool_specreader .........................   Passed    0.10 sec
+        Start  17: testtool_umount
+        Start  18: testlib_pluginprocess
+        Start  19: testlib_notification
+        Start  20: testcpp_contextual_basic
+        Start  21: testcpp_contextual_nocontext
+        Start  22: testcpp_contextual_policy
+        Start  23: testcpp_contextual_thread
+ 16/240 Test  #17: testtool_umount .............................   Passed    0.02 sec
+ 17/240 Test  #18: testlib_pluginprocess .......................   Passed    0.22 sec
+ 18/240 Test  #22: testcpp_contextual_policy ...................   Passed    0.21 sec
+ 19/240 Test  #20: testcpp_contextual_basic ....................   Passed    0.21 sec
+ 20/240 Test  #21: testcpp_contextual_nocontext ................   Passed    0.21 sec
+        Start  24: testcpp_contextual_update
+        Start  25: testcpp_iter
+        Start  26: testcpp_iter_name
+        Start  27: testcpp_kdb
+        Start  28: testcpp_key
+ 21/240 Test  #25: testcpp_iter ................................   Passed    0.01 sec
+ 22/240 Test  #19: testlib_notification ........................   Passed    0.33 sec
+ 23/240 Test  #27: testcpp_kdb .................................   Passed    0.11 sec
+ 24/240 Test  #26: testcpp_iter_name ...........................   Passed    0.11 sec
+ 25/240 Test  #24: testcpp_contextual_update ...................   Passed    0.11 sec
+ 26/240 Test  #23: testcpp_contextual_thread ...................   Passed    0.42 sec
+ 27/240 Test  #28: testcpp_key .................................   Passed    0.10 sec
+        Start  29: testcpp_keyio
+        Start  30: testcpp_ks
+        Start  31: testcpp_ksget
+        Start  32: testcpp_meta
+        Start  33: testjna_maven
+        Start  34: test_context
+        Start  35: test_fork
+ 28/240 Test  #30: testcpp_ks ..................................   Passed    0.04 sec
+ 29/240 Test  #31: testcpp_ksget ...............................   Passed    0.04 sec
+ 30/240 Test  #32: testcpp_meta ................................   Passed    0.14 sec
+ 31/240 Test  #29: testcpp_keyio ...............................   Passed    0.24 sec
+ 32/240 Test  #35: test_fork ...................................   Passed    0.33 sec
+        Start  36: test_getenv
+        Start  37: testmod_augeas
+        Start  38: testmod_base64
+        Start  40: testmod_blockresolver
+        Start  42: testmod_boolean
+ 33/240 Test  #37: testmod_augeas ..............................   Passed    0.04 sec
+ 34/240 Test  #42: testmod_boolean .............................   Passed    0.04 sec
+ 35/240 Test  #38: testmod_base64 ..............................   Passed    0.04 sec
+ 36/240 Test  #36: test_getenv .................................   Passed    0.24 sec
+ 37/240 Test  #34: test_context ................................   Passed    0.58 sec
+ 38/240 Test  #40: testmod_blockresolver .......................   Passed    0.24 sec
+        Start  44: testmod_cache
+        Start  47: testmod_cachefilter
+        Start  48: testmod_camel
+        Start  50: testmod_ccode
+        Start  52: testmod_conditionals
+        Start  55: testmod_cpptemplate
+ 39/240 Test  #50: testmod_ccode ...............................   Passed    0.01 sec
+ 40/240 Test  #44: testmod_cache ...............................   Passed    0.01 sec
+ 41/240 Test   #9: testtool_mergingkdb .........................   Passed    1.15 sec
+ 42/240 Test  #55: testmod_cpptemplate .........................   Passed    0.01 sec
+ 43/240 Test  #48: testmod_camel ...............................   Passed    0.01 sec
+ 44/240 Test  #47: testmod_cachefilter .........................   Passed    0.11 sec
+ 45/240 Test  #52: testmod_conditionals ........................   Passed    0.11 sec
+        Start  57: testmod_cpptype
+        Start  59: testmod_crypto_openssl
+        Start  60: testmod_crypto_gcrypt
+        Start  61: testmod_crypto_botan
+        Start  62: testmod_csvstorage
+        Start  64: testmod_date
+        Start  65: testmod_dbus
+ 46/240 Test  #65: testmod_dbus ................................   Passed    0.01 sec
+ 47/240 Test  #62: testmod_csvstorage ..........................   Passed    0.12 sec
+ 48/240 Test  #64: testmod_date ................................   Passed    0.11 sec
+ 49/240 Test  #57: testmod_cpptype .............................   Passed    0.42 sec
+        Start  67: testmod_directoryvalue
+        Start  69: testmod_dump
+        Start  70: testmod_enum
+        Start  72: testmod_fcrypt
+ 50/240 Test  #69: testmod_dump ................................   Passed    0.02 sec
+ 51/240 Test  #60: testmod_crypto_gcrypt .......................   Passed    0.44 sec
+ 52/240 Test  #67: testmod_directoryvalue ......................   Passed    0.02 sec
+ 53/240 Test  #59: testmod_crypto_openssl ......................   Passed    0.54 sec
+ 54/240 Test  #70: testmod_enum ................................   Passed    0.21 sec
+ 55/240 Test  #72: testmod_fcrypt ..............................   Passed    0.21 sec
+        Start  73: testmod_file
+        Start  75: testmod_filecheck
+        Start  76: testmod_fstab
+        Start  77: testmod_glob
+        Start  79: testmod_gopts
+        Start  80: testmod_gpgme
+ 56/240 Test  #73: testmod_file ................................   Passed    0.02 sec
+ 57/240 Test  #79: testmod_gopts ...............................   Passed    0.10 sec
+ 58/240 Test  #77: testmod_glob ................................   Passed    0.10 sec
+ 59/240 Test  #61: testmod_crypto_botan ........................   Passed    0.85 sec
+ 60/240 Test  #80: testmod_gpgme ...............................   Passed    0.19 sec
+ 61/240 Test  #75: testmod_filecheck ...........................   Passed    0.20 sec
+ 62/240 Test  #76: testmod_fstab ...............................   Passed    0.20 sec
+        Start  81: testmod_hexcode
+        Start  82: testmod_hexnumber
+        Start  84: testmod_hosts
+        Start  86: testmod_iconv
+        Start  88: testmod_ini
+        Start  90: testmod_internalnotification
+        Start  91: testmod_ipaddr
+ 63/240 Test  #86: testmod_iconv ...............................   Passed    0.01 sec
+ 64/240 Test  #81: testmod_hexcode .............................   Passed    0.02 sec
+ 65/240 Test  #82: testmod_hexnumber ...........................   Passed    0.02 sec
+ 66/240 Test  #91: testmod_ipaddr ..............................   Passed    0.10 sec
+ 67/240 Test  #84: testmod_hosts ...............................   Passed    0.12 sec
+ 68/240 Test  #88: testmod_ini .................................   Passed    0.11 sec
+ 69/240 Test  #90: testmod_internalnotification ................   Passed    0.11 sec
+        Start  93: testmod_iterate
+        Start  94: testmod_keytometa
+        Start  96: testmod_line
+        Start  97: testmod_lineendings
+        Start  98: testmod_list
+        Start  99: testmod_macaddr
+        Start 102: testmod_mathcheck
+ 70/240 Test  #98: testmod_list ................................   Passed    0.10 sec
+ 71/240 Test  #93: testmod_iterate .............................   Passed    0.11 sec
+ 72/240 Test  #96: testmod_line ................................   Passed    0.11 sec
+ 73/240 Test  #99: testmod_macaddr .............................   Passed    0.10 sec
+ 74/240 Test  #94: testmod_keytometa ...........................   Passed    0.11 sec
+ 75/240 Test  #97: testmod_lineendings .........................   Passed    0.11 sec
+ 76/240 Test #102: testmod_mathcheck ...........................   Passed    0.10 sec
+        Start 103: testmod_mini
+        Start 105: testmod_mmapstorage_crc
+        Start 106: testmod_mmapstorage
+        Start 108: testmod_mozprefs
+        Start 112: testmod_network
+        Start 113: testmod_ni
+        Start 115: testmod_passwd
+ 77/240 Test #106: testmod_mmapstorage .........................   Passed    0.17 sec
+ 78/240 Test #113: testmod_ni ..................................   Passed    0.17 sec
+ 79/240 Test #115: testmod_passwd ..............................   Passed    0.17 sec
+ 80/240 Test #105: testmod_mmapstorage_crc .....................   Passed    0.28 sec
+ 81/240 Test #108: testmod_mozprefs ............................   Passed    0.27 sec
+ 82/240 Test #103: testmod_mini ................................   Passed    0.28 sec
+        Start 117: testmod_process
+        Start 120: testmod_quickdump
+        Start 121: testmod_range
+        Start 123: testmod_reference
+        Start 125: testmod_rename
+        Start 127: testmod_resolver
+ 83/240 Test #120: testmod_quickdump ...........................   Passed    0.11 sec
+ 84/240 Test #127: testmod_resolver ............................   Passed    0.10 sec
+ 85/240 Test #125: testmod_rename ..............................   Passed    0.10 sec
+ 86/240 Test #123: testmod_reference ...........................   Passed    0.11 sec
+ 87/240 Test #117: testmod_process .............................   Passed    0.21 sec
+ 88/240 Test #121: testmod_range ...............................   Passed    0.21 sec
+        Start 128: testmod_rgbcolor
+        Start 131: testmod_simpleini
+        Start 132: testmod_spec
+        Start 134: test_elektra-specload-testapp
+        Start 135: testmod_specload
+        Start 137: testmod_template
+ 89/240 Test #137: testmod_template ............................   Passed    0.00 sec
+ 90/240 Test #131: testmod_simpleini ...........................   Passed    0.11 sec
+ 91/240 Test #128: testmod_rgbcolor ............................   Passed    0.11 sec
+ 92/240 Test #134: test_elektra-specload-testapp ...............   Passed    0.11 sec
+ 93/240 Test #132: testmod_spec ................................   Passed    0.21 sec
+ 94/240 Test #135: testmod_specload ............................   Passed    0.20 sec
+        Start 139: testmod_type
+        Start 141: testmod_uname
+        Start 143: testmod_unit
+        Start 145: testmod_validation
+        Start 147: testmod_xerces
+        Start 148: testmod_xmltool
+ 95/240 Test #145: testmod_validation ..........................   Passed    0.00 sec
+ 96/240 Test #143: testmod_unit ................................   Passed    0.01 sec
+ 97/240 Test #141: testmod_uname ...............................   Passed    0.01 sec
+ 98/240 Test #147: testmod_xerces ..............................   Passed    0.20 sec
+ 99/240 Test #148: testmod_xmltool .............................   Passed    0.20 sec
+        Start 149: testmod_yajl
+        Start 151: testmod_yamlsmith
+        Start 153: testmod_zeromqsend
+        Start 154: testscr_check_bashisms
+        Start 158: testscr_check_doc
+100/240 Test #149: testmod_yajl ................................   Passed    0.11 sec
+101/240 Test #158: testscr_check_doc ...........................   Passed    0.20 sec
+102/240 Test #139: testmod_type ................................   Passed    0.53 sec
+103/240 Test  #33: testjna_maven ...............................   Passed    3.00 sec
+104/240 Test #151: testmod_yamlsmith ...........................   Passed    0.21 sec
+        Start 161: testscr_check_formatting
+        Start 170: testscr_check_oclint
+        Start 171: testscr_check_plugins
+        Start 172: testscr_check_posix
+        Start 202: testabi_key
+105/240 Test #161: testscr_check_formatting ....................   Passed    0.40 sec
+106/240 Test #170: testscr_check_oclint ........................   Passed    0.40 sec
+107/240 Test #112: testmod_network .............................   Passed    1.73 sec
+108/240 Test #202: testabi_key .................................   Passed    0.40 sec
+        Start 203: testabi_ks
+        Start 204: testabi_meta
+        Start 205: testabi_rel
+        Start 206: test_args
+109/240 Test #172: testscr_check_posix .........................   Passed    0.51 sec
+110/240 Test #203: testabi_ks ..................................   Passed    0.30 sec
+111/240 Test #204: testabi_meta ................................   Passed    0.30 sec
+112/240 Test #206: test_args ...................................   Passed    0.30 sec
+113/240 Test #205: testabi_rel .................................   Passed    0.30 sec
+        Start 207: test_array
+        Start 208: test_backend
+        Start 209: test_globbing
+        Start 210: test_internal
+        Start 211: test_key
+114/240 Test #209: test_globbing ...............................   Passed    0.10 sec
+115/240 Test #171: testscr_check_plugins .......................   Passed    0.91 sec
+116/240 Test #207: test_array ..................................   Passed    0.20 sec
+117/240 Test #211: test_key ....................................   Passed    0.20 sec
+118/240 Test #208: test_backend ................................   Passed    0.20 sec
+119/240 Test #210: test_internal ...............................   Passed    0.20 sec
+        Start 212: test_keyname
+        Start 213: test_ks
+        Start 214: test_ks_opmphm
+        Start 215: test_meta
+        Start 216: test_mount
+        Start 217: test_mountsplit
+120/240 Test #214: test_ks_opmphm ..............................   Passed    0.10 sec
+121/240 Test #213: test_ks .....................................   Passed    0.20 sec
+122/240 Test #212: test_keyname ................................   Passed    0.20 sec
+123/240 Test #216: test_mount ..................................   Passed    0.20 sec
+124/240 Test #217: test_mountsplit .............................   Passed    0.20 sec
+125/240 Test #215: test_meta ...................................   Passed    0.20 sec
+        Start 218: test_namespace
+        Start 219: test_operation
+        Start 220: test_opmphm
+        Start 221: test_opmphm_predictor
+        Start 222: test_opts
+        Start 223: test_order
+126/240 Test #221: test_opmphm_predictor .......................   Passed    0.10 sec
+127/240 Test #218: test_namespace ..............................   Passed    0.20 sec
+128/240 Test #223: test_order ..................................   Passed    0.20 sec
+129/240 Test #220: test_opmphm .................................   Passed    0.30 sec
+130/240 Test #222: test_opts ...................................   Passed    0.30 sec
+131/240 Test #219: test_operation ..............................   Passed    0.30 sec
+        Start 224: test_plugin
+        Start 225: test_proposal
+        Start 226: test_size
+        Start 227: test_spec
+        Start 228: test_split
+        Start 229: test_splitget
+132/240 Test #229: test_splitget ...............................   Passed    0.10 sec
+133/240 Test #226: test_size ...................................   Passed    0.20 sec
+134/240 Test #227: test_spec ...................................   Passed    0.20 sec
+135/240 Test #224: test_plugin .................................   Passed    0.21 sec
+136/240 Test #228: test_split ..................................   Passed    0.20 sec
+137/240 Test #225: test_proposal ...............................   Passed    0.20 sec
+        Start 230: test_splitset
+        Start 231: test_storage
+        Start 232: test_trie
+        Start 233: test_utility
+138/240 Test #232: test_trie ...................................   Passed    0.20 sec
+139/240 Test #230: test_splitset ...............................   Passed    0.20 sec
+140/240 Test #233: test_utility ................................   Passed    0.20 sec
+141/240 Test #231: test_storage ................................   Passed    0.80 sec
+142/240 Test #154: testscr_check_bashisms ......................   Passed    3.72 sec
+143/240 Test #153: testmod_zeromqsend ..........................   Passed   28.35 sec
+        Start  39: testshell_markdown_base64
+144/240 Test  #39: testshell_markdown_base64 ...................   Passed    1.22 sec
+        Start  41: testshell_markdown_blockresolver
+145/240 Test  #41: testshell_markdown_blockresolver ............   Passed    2.60 sec
+        Start  43: testshell_markdown_boolean
+146/240 Test  #43: testshell_markdown_boolean ..................   Passed    0.88 sec
+        Start  45: testshell_markdown_cache
+147/240 Test  #45: testshell_markdown_cache ....................   Passed    0.14 sec
+        Start  46: testshell_markdown_cachefilter
+148/240 Test  #46: testshell_markdown_cachefilter ..............   Passed    0.24 sec
+        Start  49: testshell_markdown_camel
+149/240 Test  #49: testshell_markdown_camel ....................   Passed    0.90 sec
+        Start  51: testshell_markdown_ccode
+150/240 Test  #51: testshell_markdown_ccode ....................   Passed    2.01 sec
+        Start  53: testshell_markdown_conditionals
+151/240 Test  #53: testshell_markdown_conditionals .............   Passed    2.73 sec
+        Start  54: testshell_markdown_constants
+152/240 Test  #54: testshell_markdown_constants ................   Passed    1.82 sec
+        Start  56: testshell_markdown_cpptemplate
+153/240 Test  #56: testshell_markdown_cpptemplate ..............   Passed    0.76 sec
+        Start  58: testshell_markdown_cpptype
+154/240 Test  #58: testshell_markdown_cpptype ..................   Passed    1.22 sec
+        Start  63: testshell_markdown_csvstorage
+155/240 Test  #63: testshell_markdown_csvstorage ...............   Passed    3.32 sec
+        Start  66: testshell_markdown_dini
+156/240 Test  #66: testshell_markdown_dini .....................   Passed    1.05 sec
+        Start  68: testshell_markdown_directoryvalue
+157/240 Test  #68: testshell_markdown_directoryvalue ...........   Passed    1.64 sec
+        Start  71: testshell_markdown_enum
+158/240 Test  #71: testshell_markdown_enum .....................   Passed    1.76 sec
+        Start  74: testshell_markdown_file
+159/240 Test  #74: testshell_markdown_file .....................   Passed    0.89 sec
+        Start  78: testshell_markdown_gopts
+160/240 Test  #78: testshell_markdown_gopts ....................   Passed    0.34 sec
+        Start  83: testshell_markdown_hexnumber
+161/240 Test  #83: testshell_markdown_hexnumber ................   Passed    1.24 sec
+        Start  85: testshell_markdown_hosts
+162/240 Test  #85: testshell_markdown_hosts ....................   Passed    1.35 sec
+        Start  87: testshell_markdown_iconv
+163/240 Test  #87: testshell_markdown_iconv ....................   Passed    0.85 sec
+        Start  89: testshell_markdown_ini
+164/240 Test  #89: testshell_markdown_ini ......................   Passed    7.09 sec
+        Start  92: testshell_markdown_ipaddr
+165/240 Test  #92: testshell_markdown_ipaddr ...................   Passed    1.26 sec
+        Start  95: testshell_markdown_line
+166/240 Test  #95: testshell_markdown_line .....................   Passed    2.13 sec
+        Start 100: testshell_markdown_macaddr
+167/240 Test #100: testshell_markdown_macaddr ..................   Passed    1.98 sec
+        Start 101: testshell_markdown_mathcheck
+168/240 Test #101: testshell_markdown_mathcheck ................   Passed    1.66 sec
+        Start 104: testshell_markdown_mini
+169/240 Test #104: testshell_markdown_mini .....................   Passed    2.89 sec
+        Start 107: testshell_markdown_mmapstorage
+170/240 Test #107: testshell_markdown_mmapstorage ..............   Passed    0.84 sec
+        Start 109: testshell_markdown_mozprefs
+171/240 Test #109: testshell_markdown_mozprefs .................   Passed    0.99 sec
+        Start 110: testshell_markdown_multifile
+172/240 Test #110: testshell_markdown_multifile ................   Passed    2.32 sec
+        Start 111: testshell_markdown_network
+173/240 Test #111: testshell_markdown_network ..................   Passed    1.04 sec
+        Start 114: testshell_markdown_ni
+174/240 Test #114: testshell_markdown_ni .......................   Passed    0.95 sec
+        Start 116: testshell_markdown_path
+175/240 Test #116: testshell_markdown_path .....................   Passed    1.57 sec
+        Start 118: testshell_markdown_process
+176/240 Test #118: testshell_markdown_process ..................   Passed    0.70 sec
+        Start 119: testshell_markdown_quickdump
+177/240 Test #119: testshell_markdown_quickdump ................   Passed    1.66 sec
+        Start 122: testshell_markdown_range
+178/240 Test #122: testshell_markdown_range ....................   Passed    0.73 sec
+        Start 124: testshell_markdown_reference
+179/240 Test #124: testshell_markdown_reference ................   Passed    0.75 sec
+        Start 126: testshell_markdown_rename
+180/240 Test #126: testshell_markdown_rename ...................   Passed    1.56 sec
+        Start 129: testshell_markdown_rgbcolor
+181/240 Test #129: testshell_markdown_rgbcolor .................   Passed    2.40 sec
+        Start 130: testshell_markdown_shell
+182/240 Test #130: testshell_markdown_shell ....................   Passed   11.76 sec
+        Start 133: testshell_markdown_specload
+183/240 Test #133: testshell_markdown_specload .................   Passed    0.17 sec
+        Start 136: testshell_markdown_tcl
+184/240 Test #136: testshell_markdown_tcl ......................   Passed    1.12 sec
+        Start 138: testshell_markdown_template
+185/240 Test #138: testshell_markdown_template .................   Passed    0.39 sec
+        Start 140: testshell_markdown_type
+186/240 Test #140: testshell_markdown_type .....................   Passed    3.88 sec
+        Start 142: testshell_markdown_uname
+187/240 Test #142: testshell_markdown_uname ....................   Passed    0.89 sec
+        Start 144: testshell_markdown_unit
+188/240 Test #144: testshell_markdown_unit .....................   Passed    0.21 sec
+        Start 146: testshell_markdown_xerces
+189/240 Test #146: testshell_markdown_xerces ...................   Passed    0.69 sec
+        Start 150: testshell_markdown_yajl
+190/240 Test #150: testshell_markdown_yajl .....................   Passed    2.50 sec
+        Start 152: testshell_markdown_yamlsmith
+191/240 Test #152: testshell_markdown_yamlsmith ................   Passed    3.00 sec
+        Start 155: testscr_check_basic
+192/240 Test #155: testscr_check_basic .........................   Passed    0.11 sec
+        Start 156: testscr_check_cmd_line_arguments
+193/240 Test #156: testscr_check_cmd_line_arguments ............   Passed    0.14 sec
+        Start 157: testscr_check_distribution
+194/240 Test #157: testscr_check_distribution ..................   Passed    5.15 sec
+        Start 159: testscr_check_error
+195/240 Test #159: testscr_check_error .........................   Passed    0.33 sec
+        Start 160: testscr_check_export
+196/240 Test #160: testscr_check_export ........................   Passed    0.57 sec
+        Start 162: testscr_check_gen
+197/240 Test #162: testscr_check_gen ...........................   Passed    1.48 sec
+        Start 163: testscr_check_get_set
+198/240 Test #163: testscr_check_get_set .......................   Passed    0.73 sec
+        Start 164: testscr_check_import
+199/240 Test #164: testscr_check_import ........................   Passed    0.64 sec
+        Start 165: testscr_check_kdb_internal_check
+200/240 Test #165: testscr_check_kdb_internal_check ............   Passed    0.48 sec
+        Start 166: testscr_check_kdb_internal_suite
+201/240 Test #166: testscr_check_kdb_internal_suite ............   Passed    0.75 sec
+        Start 167: testscr_check_merge
+202/240 Test #167: testscr_check_merge .........................   Passed    1.09 sec
+        Start 168: testscr_check_meta
+203/240 Test #168: testscr_check_meta ..........................   Passed    1.77 sec
+        Start 169: testscr_check_mount
+204/240 Test #169: testscr_check_mount .........................   Passed    0.41 sec
+        Start 173: testscr_check_race
+205/240 Test #173: testscr_check_race ..........................   Passed    0.10 sec
+        Start 174: testscr_check_real_world
+206/240 Test #174: testscr_check_real_world ....................***Failed    0.06 sec
+
+ELEKTRA CHECK REAL WORLD SUITE
+
+Check if script tests the correct version
+fatal (no cleanup necessary): files /etc/kdb/test_real_world_uname in /etc/kdb would be removed during tests, so test is aborted
+
+        Start 175: testscr_check_resolver
+207/240 Test #175: testscr_check_resolver ......................   Passed    2.56 sec
+        Start 176: testscr_check_spec
+208/240 Test #176: testscr_check_spec ..........................   Passed    0.32 sec
+        Start 177: testscr_check_spelling
+209/240 Test #177: testscr_check_spelling ......................   Passed    0.04 sec
+        Start 178: testscr_generate_data
+210/240 Test #178: testscr_generate_data .......................   Passed    0.04 sec
+        Start 179: testshell_db_changes
+211/240 Test #179: testshell_db_changes ........................   Passed    0.22 sec
+        Start 180: testshell_host
+212/240 Test #180: testshell_host ..............................   Passed    0.21 sec
+        Start 181: testshell_listtest
+213/240 Test #181: testshell_listtest ..........................   Passed    0.20 sec
+        Start 182: testshell_mathcheck
+214/240 Test #182: testshell_mathcheck .........................   Passed    0.19 sec
+        Start 183: testshell_profiletest
+215/240 Test #183: testshell_profiletest .......................   Passed    0.22 sec
+        Start 184: testshell_script
+216/240 Test #184: testshell_script ............................   Passed    0.21 sec
+        Start 185: testshell_selftest
+217/240 Test #185: testshell_selftest ..........................   Passed    0.22 sec
+        Start 186: testshell_replay_ls
+218/240 Test #186: testshell_replay_ls .........................   Passed    0.61 sec
+        Start 187: testshell_markdown_kdb_get
+219/240 Test #187: testshell_markdown_kdb_get ..................   Passed    1.57 sec
+        Start 188: testshell_markdown_kdb_complete
+220/240 Test #188: testshell_markdown_kdb_complete .............   Passed    1.38 sec
+        Start 189: testshell_markdown_kdb_cp
+221/240 Test #189: testshell_markdown_kdb_cp ...................   Passed    2.02 sec
+        Start 190: testshell_markdown_kdb_global_umount
+222/240 Test #190: testshell_markdown_kdb_global_umount ........   Passed    0.67 sec
+        Start 191: testshell_markdown_kdb_ls
+223/240 Test #191: testshell_markdown_kdb_ls ...................   Passed    1.43 sec
+        Start 192: testshell_markdown_kdb_find
+224/240 Test #192: testshell_markdown_kdb_find .................   Passed    0.73 sec
+        Start 193: testshell_markdown_tutorial_arrays
+225/240 Test #193: testshell_markdown_tutorial_arrays ..........   Passed    1.84 sec
+        Start 194: testshell_markdown_tutorial_cascading
+226/240 Test #194: testshell_markdown_tutorial_cascading .......   Passed    2.24 sec
+        Start 195: testshell_markdown_tutorial_validation
+227/240 Test #195: testshell_markdown_tutorial_validation ......   Passed    5.89 sec
+        Start 196: testshell_markdown_msr_syntax
+228/240 Test #196: testshell_markdown_msr_syntax ...............   Passed    2.06 sec
+        Start 197: testshell_markdown_readme_msr
+229/240 Test #197: testshell_markdown_readme_msr ...............   Passed    1.53 sec
+        Start 198: testshell_markdown_issue_template
+230/240 Test #198: testshell_markdown_issue_template ...........   Passed    0.38 sec
+        Start 199: testshell_markdown_ini_crash_test
+231/240 Test #199: testshell_markdown_ini_crash_test ...........   Passed    0.22 sec
+        Start 200: testshell_markdown_mmapstorage_shelltests
+232/240 Test #200: testshell_markdown_mmapstorage_shelltests ...   Passed    3.65 sec
+        Start 201: testshell_markdown_cache_shelltests
+233/240 Test #201: testshell_markdown_cache_shelltests .........   Passed    1.79 sec
+        Start 234: testkdb_allplugins
+234/240 Test #234: testkdb_allplugins ..........................   Passed    0.12 sec
+        Start 235: testkdb_conflict
+235/240 Test #235: testkdb_conflict ............................   Passed    0.61 sec
+        Start 236: testkdb_error
+236/240 Test #236: testkdb_error ...............................   Passed    0.40 sec
+        Start 237: testkdb_nested
+237/240 Test #237: testkdb_nested ..............................   Passed    0.74 sec
+        Start 238: testkdb_simple
+238/240 Test #238: testkdb_simple ..............................   Passed    1.23 sec
+        Start 239: testkdb_ensure
+239/240 Test #239: testkdb_ensure ..............................   Passed    0.23 sec
+        Start 240: testkdb_highlevel
+240/240 Test #240: testkdb_highlevel ...........................   Passed    4.37 sec
+
+99% tests passed, 1 tests failed out of 240
+
+Label Time Summary:
+bindings    =   3.00 sec (1 test)
+kdbtests    = 148.44 sec (106 tests)
+memleak     = 140.33 sec (100 tests)
+
+Total Test time (real) = 169.90 sec
+
+The following tests FAILED:
+	174 - testscr_check_real_world (Failed)
+tests/CMakeFiles/run_all.dir/build.make:57: die Regel für Ziel „tests/CMakeFiles/run_all“ scheiterte
+CMakeFiles/Makefile2:26056: die Regel für Ziel „tests/CMakeFiles/run_all.dir/all“ scheiterte
+CMakeFiles/Makefile2:26063: die Regel für Ziel „tests/CMakeFiles/run_all.dir/rule“ scheiterte
+Makefile:7228: die Regel für Ziel „run_all“ scheiterte
